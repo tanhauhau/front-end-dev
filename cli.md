@@ -41,4 +41,5 @@ latest_version() {
 ```
 
 Usage: `latest_version react`
-See: https://stedolan.github.io/jq/
+
+See: https://stedolan.github.io/jq/ to install `jq` before use
