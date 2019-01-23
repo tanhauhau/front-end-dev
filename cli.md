@@ -31,3 +31,14 @@ Switch git branch faster, see [gs](https://github.com/tanhauhau/gs).
 
 Run npm commands faster, see [yx](https://github.com/tanhauhau/yx).
 
+## latest_version {lib}
+> What is the latest version published of this library?
+
+```bash
+latest_version() {
+  yarn info $1 --json | jq '.data.versions[-1]'
+}
+```
+
+Usage: `latest_version react`
+See: https://stedolan.github.io/jq/
